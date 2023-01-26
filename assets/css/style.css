@@ -1,0 +1,130 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(0, 0, 0, 0.932) !important;
+}
+nav{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding-top: 40px !important;
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
+.hero{
+  font-size: 20px !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+.brand{
+  font-family: 'Bebas Neue', cursive !important;
+  font-size: 30px;
+}
+.hero:hover{
+  color:yellow !important;
+}
+nav ul li{
+  font-family: 'Rowdies', cursive !important;
+  font-size: 20px !important;
+  list-style-type: none !important;
+  display: inline-block !important;
+  padding-left: 40px !important;
+}
+.aa{
+  color: white !important;
+}
+nav ul li a:hover{
+
+  color: #ea1538 !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+.container{
+  width:100%;
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto;
+}
+.lb{
+  position: relative;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff !important;
+ -webkit-text-stroke: 0.1vw #616474;
+  text-transform: uppercase;
+}
+.lb::before{
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 110%;
+  color: blueviolet;
+  -webkit-text-stroke: -5px black;
+  border-right: 2px solid #01fe87;
+  overflow: hidden;
+  animation: animate 6s linear infinite;
+}
+@keyframes animate{
+  0%,10%,100%
+  {
+    width: 0;
+  }
+  70%,90%
+  {
+    width: 100%;
+  }
+}
+.footer{
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  font-family: 'Comfortaa', cursive;
+ 
+}
+.fontt2{
+  font-size: 13px !important;
+  margin-top: 15px;
+}
+.icons{
+  margin-top: 5px !important;
+}
+.icons a{
+  text-decoration: none;
+  color: white !important;
+  font-size: 20px !important;
+  list-style-type: none !important;
+  display: inline-block !important;
+  padding-left: 17px !important;
+  margin-bottom: 20px !important;
+}
+.icons a:hover{
+  color: #1535ea !important;
+  transform: scale(1.3) !important;
+  cursor: pointer !important;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  font-size: 20px !important;
+  font-weight: bolder !important;
+  color:aqua;
+}
+.text-centerr{
+  text-align: center !important;
+}
+
+
+
+
+

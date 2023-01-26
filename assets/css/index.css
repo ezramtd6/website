@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.row1{
+  padding-top: 90px !important;
+  margin-bottom: 269.5px;
+}
+.fontt{
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 3rem;
+  font-family: 'Poppins';
+  color: white;
+}

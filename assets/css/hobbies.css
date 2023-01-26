@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.downn{
+  padding-top: 65px !important;
+  margin-bottom: 50px;
+}
+.fontt{
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 3rem;
+  font-family: 'Poppins';
+  color: white;
+}
+.downn1{
+  margin-top: 30px !important;
+}
+.imge{
+  margin-left: 20px !important;
+  height: 200px !important;
+  width: 90% !important;
+}
+.footer{
+  margin-top: 25px !important;
+}
